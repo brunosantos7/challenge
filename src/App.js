@@ -34,7 +34,7 @@ function App() {
           className={!isSummary ? "active" : "inactive"}
           onClick={e => setIsSummary(false)}
         >
-          Undunfed
+          Unfunded
         </button>
       </div>
       <div className="container">
