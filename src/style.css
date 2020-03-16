@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;    
+}
+
+
+thead {
+    background-color: grey;
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.underline-header{
+    text-decoration: underline;
+}
+
+.blue-header {
+    background-color: rgb(1, 1, 157);
+}
+
+.border-left {
+    border-left: 2px solid black;
+}
+
+
+
+tbody tr{
+    text-align: right;
+}
+
+tbody tr input{
+    text-align: right;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttonsContainer button.active {
+    background: rgb(1, 1, 157);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+.buttonsContainer button {
+    font-size: 15px;
+}
